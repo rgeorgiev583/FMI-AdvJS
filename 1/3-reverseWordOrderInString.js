@@ -1,7 +1,6 @@
 function reverseWordOrderInString(str)
 {
-    var words = str.split(" ");
-    return words.reverse().join(" ");
+    var words = str.split(' ').reverse().join(' ');
 }
 
 module.exports = reverseWordOrderInString;
