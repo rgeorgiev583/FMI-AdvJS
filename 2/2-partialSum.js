@@ -1,5 +1,4 @@
-function partialSum(a, b)
-{
+function sum(a, b) {
     if (arguments.length == 0) {
         return 0;
     } else if (arguments.length == 1) {
@@ -9,4 +8,4 @@ function partialSum(a, b)
     }
 }
 
-module.exports = partialSum;
+module.exports = sum;
